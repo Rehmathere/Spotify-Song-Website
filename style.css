@@ -1,0 +1,118 @@
+body{
+    background-color: antiquewhite;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+    background-color: black;
+    height: 90px;
+    color: white;
+    align-items: center;
+}
+nav li{
+    padding: 35px;
+    font-size: 30px;
+    font-weight: bold;
+}
+nav li:hover{
+    text-shadow: 5px 5px 5px brown;
+    /* text-decoration:underline; */
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    /* padding: 5px; */
+}
+.brand img{
+    width: 60px;
+}
+.brand img:hover{
+    filter: invert(0.2);
+}
+.container{
+    min-height: 60vh;
+    color: white;
+    display: flex;
+    margin: 23px auto;
+    padding: 20px 20px;
+    width: 70%;
+    background-color: black;
+    border-radius: 50px;
+    background: url('/bg.jpg') center;
+}
+.bottom{
+    border-radius: 50px;
+    position: sticky;
+    height: 100px;
+    bottom: 10px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+    /* margin: 10px; */
+}
+.icons{
+    margin-top: 15px;
+}
+.icons i{
+    cursor: pointer;
+}
+#myProgressBar{
+    width: 80vw;
+    text-align: center;
+    cursor: pointer;
+}
+.firsth{
+    font-size: 3.5rem;
+}
+.firsth:hover{
+    text-shadow: 3px 3px 3px gray;
+}
+.songItem{
+    height: 30px;
+    display: flex;
+    background-color: white;
+    width: 100%;
+    color: black;
+    border-radius: 50px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 12px 0;
+    padding: 10px;
+    font-weight: bold;
+}
+.songItem img{
+    border-radius: 50px;
+    width: 43px;
+    /* padding: 0 20px; */
+    margin: 0 23px;
+}
+.songItem i{
+    cursor: pointer;
+}
+.songItem i:hover{
+    color: darkgrey;
+}
+.songItem span:hover{
+    font-size: 18px;
+    cursor: pointer;
+}
+.songitemcontainer{
+    margin-top: 50px;
+    padding: 0px 80px;
+}
+.songinfo{
+    position: absolute;
+    left: 10vw;
+}
+.songinfo img{
+    opacity: 0.5;
+    transition: opacity 0.2s ease-in;    
+}
